@@ -8,8 +8,8 @@
     <remove-project name="platform/bootable/recovery" />
 
     <!-- Build -->
-    <remove-project name="platform/build" />
-    <remove-project name="platform/build/soong" />
+    <!--remove-project name="platform/build" />
+    <remove-project name="platform/build/soong" /-->
 
     <!-- Device -->
     <remove-project name="device/amlogic/yukawa" />
@@ -24,7 +24,6 @@
     <remove-project name="device/generic/mini-emulator-x86" />
     <remove-project name="device/generic/mini-emulator-x86_64" />
     <remove-project name="device/generic/opengl-transport" />
-    <remove-project name="device/generic/qemu" />
     <remove-project name="device/generic/trusty" />
     <remove-project name="device/generic/uml" />
     <remove-project name="device/generic/x86" />
@@ -83,8 +82,6 @@
     <remove-project name="device/linaro/poplar" />
     <remove-project name="device/linaro/poplar-kernel" />
     <remove-project name="device/sample" />
-    <remove-project name="device/ti/beagle-x15" />
-    <remove-project name="device/ti/beagle-x15-kernel" />
     <remove-project name="kernel/configs" />
 
     <!-- External -->
@@ -105,9 +102,9 @@
     <remove-project name="platform/external/zstd" />
 
     <!-- Frameworks -->
-    <remove-project name="platform/frameworks/av"/>
+    <!--remove-project name="platform/frameworks/av"/>
     <remove-project name="platform/frameworks/base"/>
-    <remove-project name="platform/frameworks/native"/>
+    <remove-project name="platform/frameworks/native"/-->
 
     <!-- Hardware -->
     <remove-project name="platform/hardware/broadcom/libbt" />
@@ -145,9 +142,6 @@
     <remove-project name="platform/packages/modules/Wifi" />
     <remove-project name="platform/packages/services/Telecomm" />
     <remove-project name="platform/packages/services/Telephony" />
-
-    <!-- Prebuilts -->
-    <remove-project name="platform/prebuilts/build-tools" />
 
     <!-- System -->
     <remove-project name="platform/system/bpf"/>

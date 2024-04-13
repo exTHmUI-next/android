@@ -9,19 +9,18 @@
     <project name="android" path="android" remote="exthm"/>
 
     <!-- Build System -->
-    <project name="android_build" path="build/make" groups="pdk" remote="exthm" >
-        <copyfile src="core/root.mk" dest="Makefile" />
-        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-        <linkfile src="core" dest="build/core" />
-        <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-        <linkfile src="target" dest="build/target" />
-        <linkfile src="tools" dest="build/tools" />
+    <!--project name="android_build" path="build/make" groups="pdk" remote="exthm" >
+        <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
+        <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default" />
+        <linkfile dest="build/core" src="core" />
+        <linkfile dest="build/envsetup.sh" src="envsetup.sh" />
+        <linkfile dest="build/target" src="target" />
+        <linkfile dest="build/tools" src="tools" />
     </project>
     <project name="android_build_soong" path="build/soong" groups="pdk,tradefed" remote="exthm" >
-        <linkfile src="root.bp" dest="Android.bp" />
-        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-    </project>
+        <linkfile dest="Android.bp" src="root.bp" />
+        <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
+    </project-->
 
     <!-- Bootable -->
     <project name="android_bootable_recovery" path="bootable/recovery" groups="pdk" remote="exthm" />
@@ -33,9 +32,9 @@
     <project name="android_device_exthm_sepolicy" path="device/exthm/sepolicy" remote="exthm" />
 
     <!-- Frameworks -->
-    <project name="android_frameworks_av" path="frameworks/av" groups="pdk" remote="exthm" />
+    <!--project name="android_frameworks_av" path="frameworks/av" groups="pdk" remote="exthm" />
     <project name="android_frameworks_base" path="frameworks/base" groups="pdk-cw-fs,pdk-fs" remote="exthm"/>
-    <project name="android_frameworks_native" path="frameworks/native" remote="exthm"/>
+    <project name="android_frameworks_native" path="frameworks/native" remote="exthm"/-->
 
     <!-- Hardware -->
     <project name="android_hardware_google_pixel-sepolicy" path="hardware/google/pixel-sepolicy" remote="exthm" />

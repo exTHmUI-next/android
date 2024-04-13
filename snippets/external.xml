@@ -60,9 +60,6 @@
     <project path="packages/modules/Wifi" name="LineageOS/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
     <project path="packages/services/Telephony" name="LineageOS/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
 
-    <!-- Prebuilts -->
-    <project path="prebuilts/build-tools" name="LineageOS/android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="LineageOS" />
-
     <!-- System -->
     <project path="system/bpf" name="LineageOS/android_system_bpf" groups="pdk" remote="LineageOS" />
     <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" remote="LineageOS" />
@@ -122,10 +119,6 @@
         <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
         <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
         <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
-        <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
-        <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
-        <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
-        <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
         <linkfile src="os_pickup.bp" dest="kernel/google/gs101/private/google-modules/Android.bp" />
         <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8450/audio/Android.mk" />
         <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450/Android.bp" />
