@@ -102,9 +102,9 @@
     <remove-project name="platform/external/zstd" />
 
     <!-- Frameworks -->
-    <!--remove-project name="platform/frameworks/av"/>
+    <remove-project name="platform/frameworks/av"/>
     <remove-project name="platform/frameworks/base"/>
-    <remove-project name="platform/frameworks/native"/-->
+    <remove-project name="platform/frameworks/native"/>
 
     <!-- Hardware -->
     <remove-project name="platform/hardware/broadcom/libbt" />

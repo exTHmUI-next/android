@@ -32,9 +32,9 @@
     <project name="android_device_exthm_sepolicy" path="device/exthm/sepolicy" remote="exthm" />
 
     <!-- Frameworks -->
-    <!--project name="android_frameworks_av" path="frameworks/av" groups="pdk" remote="exthm" />
+    <project name="android_frameworks_av" path="frameworks/av" groups="pdk" remote="exthm" />
     <project name="android_frameworks_base" path="frameworks/base" groups="pdk-cw-fs,pdk-fs" remote="exthm"/>
-    <project name="android_frameworks_native" path="frameworks/native" remote="exthm"/-->
+    <project name="android_frameworks_native" path="frameworks/native" remote="exthm"/>
 
     <!-- Hardware -->
     <project name="android_hardware_google_pixel-sepolicy" path="hardware/google/pixel-sepolicy" remote="exthm" />
