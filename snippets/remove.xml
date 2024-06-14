@@ -91,6 +91,7 @@
     <remove-project name="platform/external/e2fsprogs" />
     <remove-project name="platform/external/exfatprogs" />
     <remove-project name="platform/external/gptfdisk" />
+    <remove-project name="platform/external/jemalloc_new" />
     <remove-project name="platform/external/libcxx" />
     <remove-project name="platform/external/libnl" />
     <remove-project name="platform/external/libvpx" />
@@ -105,6 +106,9 @@
     <remove-project name="platform/frameworks/av"/>
     <remove-project name="platform/frameworks/base"/>
     <remove-project name="platform/frameworks/native"/>
+    <remove-project name="platform/frameworks/opt/calendar" />
+    <remove-project name="platform/frameworks/opt/telephony" />
+    <remove-project name="platform/frameworks/opt/timezonepicker" />
 
     <!-- Hardware -->
     <remove-project name="platform/hardware/broadcom/libbt" />
@@ -127,18 +131,12 @@
     <remove-project name="platform/hardware/ril" />
 
     <!-- Packages -->
-    <remove-project name="platform/packages/apps/CarrierConfig" />
-    <remove-project name="platform/packages/apps/Camera2" />
-    <remove-project name="platform/packages/apps/Dialer" />
-    <remove-project name="platform/packages/apps/Gallery2" />
-    <remove-project name="platform/packages/apps/Launcher3" />
-    <remove-project name="platform/packages/apps/Messaging" />
-    <remove-project name="platform/packages/apps/Nfc" />
+    <remove-project name="platform/packages/apps/EmergencyInfo" />
     <remove-project name="platform/packages/apps/Settings" />
-    <remove-project name="platform/packages/apps/ThemePicker" />
     <remove-project name="platform/packages/modules/adb" />
     <remove-project name="platform/packages/modules/Bluetooth" />
     <remove-project name="platform/packages/modules/common" />
+    <remove-project name="platform/packages/modules/Connectivity" />
     <remove-project name="platform/packages/modules/Wifi" />
     <remove-project name="platform/packages/services/Telecomm" />
     <remove-project name="platform/packages/services/Telephony" />
