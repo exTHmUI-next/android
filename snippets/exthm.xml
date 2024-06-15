@@ -31,6 +31,9 @@
     <!-- Device -->
     <project name="android_device_exthm_sepolicy" path="device/exthm/sepolicy" remote="exthm" />
 
+    <!-- External -->
+    <project name="android_external_jemalloc_new" path="external/jemalloc_new" remote="exthm" />
+
     <!-- Frameworks -->
     <project name="android_frameworks_av" path="frameworks/av" groups="pdk" remote="exthm" />
     <project name="android_frameworks_base" path="frameworks/base" groups="pdk-cw-fs,pdk-fs" remote="exthm"/>
